@@ -67,9 +67,6 @@ It allow a function to accept unlimited arguments.
 Spread -
 It is used to create a instance of array.
 
-String Method-
-
-
 What is Redux Middleware - 
 Its provide a medium to intreract with every action
 before sent to the reducer and also help to making
@@ -120,32 +117,28 @@ functionality logic and will return a new component with
 the data or function of the HOC included.
 
 Controlled Component -
-
 The component which form data or input field is handle 
 by the component state or react state.
 
 Uncontrolled Component -
-
 The component which form data or input field are handled
 by the DOM itself or means not controlled by react state.
 
-Pure Component(React.memo) -
-
+Pure Component(React.memo[i.e. Hook]) -
 Pure component are those component which don't re-render
 when the value of state or props has been updated with
 the same value.It used shouldComponentUpdated.
 
 Life Cycle-Method -
-
 It is a predefined methods of components that can monitor
 and update component.Phases=Mounting, Updating and
 Unmounting.
-willComponentmount is before component render
-didComponentmount is after component render
-shouldComponentupdate is decide any change
-willComponentupdate is before component update
-didComponentupdate is after component update
-willComponentunmount is before component destroyed
+ComponentWillmount is invoke before component render
+ComponentDidmount is invoke after component render
+ComponentShouldupdate is invoke decide any change
+ComponentWillupdate is invoke before component update
+ComponentDidupdate is invoke after component update
+ComponentWillunmount is invoke before component destroyed
 
 Context API - 
 React context allows us to share data or state across
