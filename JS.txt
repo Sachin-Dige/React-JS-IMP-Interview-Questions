@@ -1,0 +1,176 @@
+Javascript - 
+It is a dynamic programming language which is used to give
+attrative user experience like hover effect.
+
+Function - 
+It is a block of code used to perform some particular
+task.
+
+Js scope - 
+It determine the accessibility of any variable like block
+scope, function or Global scope.
+
+Hoisting -  
+It means declare the any variable at the top of code or
+function.
+
+This Keyword - 
+It refers to the object its belongs to.
+
+Arrow Function - 
+It is a new way to write a function introducing in ES6.
+In other words, it is short way for writing a function.
+
+Function Closures - 
+First of all its a combination of a function bundled.
+A closures gives the access to an outer function scope 
+from an inner function.
+
+Contructor - 
+It create instance of object.
+
+Asynchronous - 
+Function running in parallel with other function are 
+called as async.
+
+Promise - 
+A promise is an object, it is used to handle the 
+asynchronous task.
+eg. -
+ 	let myDisplay = async()=>{
+   	let myPromise = new Promise((res, rej)=>{
+ 	setTimeout(()=>{
+ 	res("PROMISE"); 
+ 	},1000) 
+  	});
+ 	document.getElementById("demo").innerHTML 
+ 	= await myPromise;
+  	}
+  	myDisplay()	
+
+For in -
+It is loop for finding index.
+
+For Each - 
+It is use to iterating the array.
+arr.forEach((list,index,array)=>{})
+              ^
+           Iterator
+		 
+Map -
+It is use to iterating the array and gives new array.
+let N= arr.map((list,index,array)=>{return N})	
+
+Rest -
+It allow a function to accept unlimited arguments.
+
+Spread -
+It is used to create a instance of array.
+
+String Method-
+
+
+What is Redux Middleware - 
+Its provide a medium to intreract with every action
+before sent to the reducer and also help to making
+the asynchronous requests.
+In simple word,it is a function that sits between 
+action and reducer and can intearact with dispatch 
+action before reaching the reducer function.
+
+What is react -
+Its a js library which is used to built a single page
+application and its allow to change the data without
+reloading the page.That's why it is also used for create
+large web application.
+
+Virtual vs Real DOM -
+
+Its not direct update the HTML. || Its direct update html.
+Its updates just JSX elemenst.  || Its create new DOM if
+                    		|| element update.
+It Fast                         || It slow
+
+
+State vs Props - 
+
+Mutable                  || Immutable
+Can change               || Can't change
+It changes can be asyn.  || It read only
+It define in component   || It share data between
+			 || component.
+
+Hooks -
+To use state amd life cycle method in functional 
+component we import Hooks.
+
+UseState() -
+This hook is used to declare the state variable in FC.
+
+UseEffect() -
+This is a hook for use lifecycle methods in FC.
+
+UseRef() - 
+It is used to direct manipulate the dom 
+Ex. inputref.current.focus();
+
+High Order Component -
+HOC is advanced method of reusing the component
+functionality logic and will return a new component with
+the data or function of the HOC included.
+
+Controlled Component -
+
+The component which form data or input field is handle 
+by the component state or react state.
+
+Uncontrolled Component -
+
+The component which form data or input field are handled
+by the DOM itself or means not controlled by react state.
+
+Pure Component(React.memo) -
+
+Pure component are those component which don't re-render
+when the value of state or props has been updated with
+the same value.It used shouldComponentUpdated.
+
+Life Cycle-Method -
+
+It is a predefined methods of components that can monitor
+and update component.Phases=Mounting, Updating and
+Unmounting.
+willComponentmount is before component render
+didComponentmount is after component render
+shouldComponentupdate is decide any change
+willComponentupdate is before component update
+didComponentupdate is after component update
+willComponentunmount is before component destroyed
+
+Context API - 
+React context allows us to share data or state across
+our components more easily and it avoid the prop drilling.
+
+Redux -
+It is an open source platform library for managing
+the application states. 
+
+Action -
+It is a pure function which tell what to do and it
+contain type and payload.
+
+Reducer - 
+It is a pure function which tell how to do.
+
+Thunk -
+It is return function rather than object.
+It is easy to understand.
+It hold too much async logic.
+It is difficult to test.
+
+Saga - 
+It return the object.
+It is defficult to understand as concept like generator
+function and it side effect.
+It action creator stay pure.
+It is easy to test.
